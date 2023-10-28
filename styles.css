@@ -1,0 +1,36 @@
+#grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:  500px 500px;
+    grid-template-rows:  300px  300px;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-top: 40px;
+    
+}
+#box1{
+    background-color: red;
+    height: 300px;
+    font-size: 25px;
+    padding: 10px;
+}
+#box2{
+    background-color:  rgb(35, 35, 187);
+    height: 300px;
+    font-size: 25px;
+    padding: 10px;
+}
+#box3{
+    background-color:  rgb(79, 231, 79);
+    height: 300px;
+    font-size: 25px;
+    padding: 10px;
+}
+#box4{
+    background-color: gray;
+    height: 300px;
+    font-size: 25px;
+    padding: 10px;
+}
+
